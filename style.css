@@ -1,0 +1,43 @@
+#container{
+    width: 100%;
+    
+    background: linear-gradient (135deg, #153677, #4e085f);
+
+  
+}
+
+.todo-app{
+    
+    background-color: #4e085f;
+    margin: 100px auto 20px;
+    padding: 60px 60px 100px;
+    border-radius: 20px;
+}
+
+h1{
+    color:orange;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(178, 111, 30);
+    border-radius: 25px;
+    padding-left: 60px;
+}
+input{
+    flex: 1;
+padding: 10px;}
+
+.add-btn{
+    border: none;
+    padding: 16px 50px;
+    background-color: orange;
+    border-radius: 25px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
